@@ -1,0 +1,16 @@
+{
+  "name": "adelgu-react-scroller",
+  "version": "1.0.0",
+  "description": "Easy to use react scroller component",
+  "main": "src/index.js",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.24.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}
