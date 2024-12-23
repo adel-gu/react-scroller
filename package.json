@@ -4,6 +4,7 @@
   "description": "Easy to use react scroller component",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
   "license": "MIT",
   "peerDependencies": {
     "react": "^19.0.0",
@@ -23,10 +24,11 @@
     "prop-types": "^15.8.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "storybook": "^8.4.7"
+    "storybook": "^8.4.7",
+    "typescript": "^5.7.2"
   },
   "scripts": {
-    "build": "node esbuild",
+    "build": "node esbuild && yarn tsc",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   }
