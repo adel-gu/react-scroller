@@ -25,6 +25,7 @@
     "storybook": "^8.4.7"
   },
   "scripts": {
+    "build": "node esbuild",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   }
